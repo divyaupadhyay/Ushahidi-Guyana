@@ -51,6 +51,8 @@ class html extends html_Core {
 	 * @param bool $encode Encode html entities?
 	 * @return string
 	 */
+	 
+	 	//DU : made function strip_tags() static
 	public static function strip_tags($input, $encode = TRUE)
 	{
 		require_once APPPATH.'libraries/htmlpurifier/HTMLPurifier.auto.php';
@@ -74,6 +76,8 @@ class html extends html_Core {
 	 * 
 	 * @return string
 	 **/
+	 
+	 //DU : made function allowed_html() static
 	public static function allowed_html()
 	{
 		require_once APPPATH.'libraries/htmlpurifier/HTMLPurifier.auto.php';
@@ -98,6 +102,8 @@ class html extends html_Core {
 	 * @param bool $double_encode
 	 * @return string
 	 */
+	 
+	 //DU : made function escape() static
 	public static function escape($input, $double_encode = FALSE)
 	{
 		// Ensure we have valid correctly encoded string..
