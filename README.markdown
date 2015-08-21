@@ -3,6 +3,8 @@ Crowdsourcing for the Guyana Deaf Community
 
 A Crowdsourcing Portal for Peace Corps Volunteers to provide educational services to students at Guyana who are unable to hear.
 
+Proposal ( http://divyaupadhyay.com/gsoc/ )
+
 Ushahidi Platform
 -----------------
 The Ushahidi Platform is an open source web application for information collection, vizualisation and interactive 
