@@ -86,6 +86,8 @@ class xml_Core{
 	 * @param boolean $element Set to FALSE if getting an attribute value
 	 * @return mixed String if the node value exists, FALSE otherwise
 	 */	
+	 
+	 //DU : made function allowed_html() static
 	public static function get_node_text($node, $tag_name, $element = TRUE)
 	{
 		$node_value = NULL;
